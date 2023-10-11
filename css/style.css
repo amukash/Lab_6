@@ -1,5 +1,8 @@
 body h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: beige;
+    text-align: center;
+    text-shadow: 4px 3px 1px black
 }
 td {
     font-family: 'Times New Roman', Times, serif;
@@ -8,14 +11,13 @@ td {
 }
 #title {
 	margin: auto;
-	color: blue;
 	text-align: center;
 	font-size: medium;
 	line-height: normal;
 }
 #content-wrapper {
     background-image: url("../media/background.jpg");
-	float: left;
+	float: middle;
 
 }
 #planets,
@@ -26,13 +28,14 @@ td {
 	text-align: center;
 }
 #planets th {
-	text-decoration: underline;
-	text-decoration-color: brown;
 	text-decoration-thickness: 3px;
-	background-color: grey;
+	background-color: rgb(180, 190, 242);
 }
 #planets tr:nth-child(odd) {
-	background-color: beige;
+	background-color: rgb(180, 190, 242);
+}
+#planets tr:nth-child(even) {
+    background-color: rgb(231, 209, 247);
 }
 
 .img {
